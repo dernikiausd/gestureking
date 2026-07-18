@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GestureKing</string>
+    <string name="accessibility_description">GestureKing erkennt Randgesten und führt Systemaktionen wie Zurück oder Home aus.</string>
+</resources>
