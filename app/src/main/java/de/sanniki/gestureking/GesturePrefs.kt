@@ -213,6 +213,53 @@ object GesturePrefs {
             .putString("last_event", "Einstellungen zurückgesetzt · alle Gesten leer · Modus beibehalten.")
             .putString("last_raw_gesture", "Noch keine Rohdaten.")
             .apply()
+
+        val allGestureKeys =
+            listOf(
+                GESTURE_RIGHT_SHORT,
+                GESTURE_RIGHT_LONG,
+                GESTURE_RIGHT_DOUBLE,
+                GESTURE_LEFT_SHORT,
+                GESTURE_LEFT_LONG,
+                GESTURE_LEFT_DOUBLE,
+                GESTURE_BOTTOM_SHORT,
+                GESTURE_BOTTOM_LONG,
+                GESTURE_BOTTOM_DOUBLE,
+                GESTURE_RIGHT_TOP,
+                GESTURE_RIGHT_MIDDLE,
+                GESTURE_RIGHT_BOTTOM,
+                GESTURE_LEFT_TOP,
+                GESTURE_LEFT_MIDDLE,
+                GESTURE_LEFT_BOTTOM,
+                GESTURE_BOTTOM_LEFT,
+                GESTURE_BOTTOM_CENTER,
+                GESTURE_BOTTOM_RIGHT
+            )
+
+        prefs(context).edit().apply {
+            allGestureKeys.forEach { gesture ->
+                remove(
+                    openAppGestureKey(
+                        gesture,
+                        "package"
+                    )
+                )
+                remove(
+                    openAppGestureKey(
+                        gesture,
+                        "label"
+                    )
+                )
+            }
+
+            remove("open_app_package")
+            remove("open_app_label")
+
+            for (slot in 1..3) {
+                remove("open_app_${slot}_package")
+                remove("open_app_${slot}_label")
+            }
+        }.apply()
     }
 
     fun applyRecommendedPreset(context: Context) {

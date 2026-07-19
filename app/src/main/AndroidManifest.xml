@@ -14,7 +14,7 @@
 
     <application android:roundIcon="@mipmap/ic_launcher_round" android:icon="@mipmap/ic_launcher"
         android:theme="@style/AppTheme"
-        android:label="GestureKing"
+        android:label="GestureKing Compose"
         android:allowBackup="false"
         android:supportsRtl="true">
 
