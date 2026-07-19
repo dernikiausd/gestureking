@@ -1,0 +1,1 @@
+Preparation release for publishing through F-Droid. The visible app name was unified, store metadata was completed, and the public build configuration was cleaned up.

@@ -1,0 +1,1 @@
+Vorbereitungsrelease für die Veröffentlichung über F-Droid. Der sichtbare App-Name wurde vereinheitlicht, Store-Metadaten wurden ergänzt und der öffentliche Buildstand wurde bereinigt.

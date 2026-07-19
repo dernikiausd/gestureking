@@ -11,8 +11,8 @@ android {
         applicationId = "de.sanniki.gestureking"
         minSdk = 26
         targetSdk = 36
-        versionCode = 2
-        versionName = "0.15.1-compose"
+        versionCode = 3
+        versionName = "0.15.2-compose"
     }
 
     buildFeatures {
