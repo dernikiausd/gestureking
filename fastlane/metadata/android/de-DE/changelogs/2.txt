@@ -1,0 +1,1 @@
+Erste öffentliche Version der vollständig überarbeiteten GestureKing-App mit Jetpack-Compose-Oberfläche, konfigurierbaren Gestenbereichen, App-Aktionen, Systemaktionen und Shizuku-Unterstützung.

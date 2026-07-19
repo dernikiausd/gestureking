@@ -1,0 +1,16 @@
+GestureKing adds freely configurable gesture areas to the edges of the Android screen.
+
+Actions can be assigned to different areas and swipe directions. Available actions include system controls, media controls, and launching selected apps.
+
+The position, size, and behavior of gesture areas can be adjusted. A visual preview helps with configuration.
+
+GestureKing uses Jetpack Compose for its user interface. Shizuku is required for certain advanced actions.
+
+Features:
+• configurable gesture areas along the screen edges
+• separate actions for different swipe directions
+• launch selected apps
+• system and media actions
+• adjustable gesture-area size and position
+• visual preview of active areas
+• light and dark appearance

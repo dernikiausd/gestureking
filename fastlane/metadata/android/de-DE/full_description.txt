@@ -1,0 +1,16 @@
+GestureKing erweitert Android um frei konfigurierbare Gestenbereiche an den Bildschirmrändern.
+
+Für verschiedene Bereiche und Wischrichtungen lassen sich Aktionen festlegen. Dazu gehören unter anderem Systemaktionen, Mediensteuerung und das Öffnen ausgewählter Apps.
+
+Die Gestenbereiche können hinsichtlich Position, Größe und Verhalten angepasst werden. Eine visuelle Vorschau hilft bei der Einrichtung.
+
+GestureKing nutzt Jetpack Compose für die Benutzeroberfläche. Für bestimmte erweiterte Aktionen wird Shizuku benötigt.
+
+Funktionen:
+• konfigurierbare Gestenbereiche an den Bildschirmrändern
+• unterschiedliche Aktionen je Wischrichtung
+• Öffnen ausgewählter Apps
+• System- und Medienaktionen
+• anpassbare Größe und Position der Gestenbereiche
+• visuelle Vorschau der aktiven Bereiche
+• helle und dunkle Darstellung

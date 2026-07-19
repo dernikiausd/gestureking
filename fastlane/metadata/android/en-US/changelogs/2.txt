@@ -1,0 +1,1 @@
+First public release of the fully redesigned GestureKing app with a Jetpack Compose interface, configurable gesture areas, app actions, system actions, and Shizuku support.
