@@ -41,3 +41,17 @@ GestureKing does not require root access.
 
 ```bash
 ./gradlew assembleDebug
+
+<!-- gestureking-screenshots -->
+## Screenshots
+
+<p align="center">
+  <img src="fastlane/metadata/android/de-DE/images/phoneScreenshots/GestureKing6.jpg" width="250" alt="GestureKing Screenshot 1">
+  <img src="fastlane/metadata/android/de-DE/images/phoneScreenshots/GestureKing7.jpg" width="250" alt="GestureKing Screenshot 2">
+  <img src="fastlane/metadata/android/de-DE/images/phoneScreenshots/GestureKing8.jpg" width="250" alt="GestureKing Screenshot 3">
+</p>
+
+<p align="center">
+  <img src="fastlane/metadata/android/de-DE/images/phoneScreenshots/GestureKing9.jpg" width="250" alt="GestureKing Screenshot 4">
+  <img src="fastlane/metadata/android/de-DE/images/phoneScreenshots/GestureKing10.jpg" width="250" alt="GestureKing Screenshot 5">
+</p>
